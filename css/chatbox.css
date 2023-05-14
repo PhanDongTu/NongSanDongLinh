@@ -1,0 +1,82 @@
+.contact-bubbles {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .phone-bubble, .email-bubble ,.zalo-bubble{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 67px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .phone-bubble:hover, .email-bubble:hover ,.zalo-bubble:hover {
+    transform: scale(1.1);
+  }
+  
+  .phone-bubble i, .email-bubble i {
+    position: relative;
+    top: 4px;
+  }
+  
+  .phone-bubble, .zalo-bubble {
+    background-color: #0099cc;
+  }
+  .zalo-bubble {
+    background-color: transparent;
+  }
+  
+  .email-bubble {
+    background-color: transparent;
+  }
+ 
+  
+  @media (max-width: 768px) {
+    .contact-bubbles {
+      bottom: 70px;
+      right: 10px;
+    }
+    
+    .phone-bubble, .email-bubble , .zalo-bubble{
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+      line-height: 40px;
+    }
+    
+    .phone-bubble span, .email-bubble span , .zalo-bubble img{
+      top: 2px;
+    }
+  }
+  .zoom-in-out-box   {
+    
+    animation: zoom-in-zoom-out 1s ease infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  .zoom-in-out-box:hover{
+    animation: none;
+  }

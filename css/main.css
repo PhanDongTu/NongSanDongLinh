@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url(../font/Mulish/Mulish-VariableFont_wght.ttf);
+
+}
+
+@font-face {
+    font-family: 'Mulish Medium';
+    src: url(../font/Mulish/static/Mulish-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Mulish SemiBold';
+    src: url(../font/Mulish/static/Mulish-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Mulish Bold';
+    src: url(../font/Mulish/static/Mulish-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Mulish Max';
+    src: url(../font/Mulish/static/Mulish-Bold.ttf);
+    font-weight: 800;
+}
+
+
+
+
+
+body {
+    min-height: 100vh;
+}
+#app_body{
+    background-color: var(--background-1);
+}
+
+:root {
+    --text: #333;
+
+    --title: #F2726A;
+    --text-content: #373737;
+    --xanh-la: #83bd42;
+    --xanh-la2: #589f47;
+    --background-1: #fff9ef;
+    --background-2: #fff3e2;
+    --red-button: #FF847C;
+    --yellow-text: #FFD600;
+    --lightblue-background: #009AF1;
+
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Mulish';
+    font-style: normal;
+    line-height: 22px;
+    font-size: 16px;
+
+    color: var(--text);
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+
+    font-size: 36px;
+    line-height: 30px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+
+    font-size: 24px;
+    line-height: 35px;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Mulish';
+    font-style: normal;
+
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+}
+
+h5 {
+    font-family: 'Mulish';
+    font-style: normal;
+
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
+
+h6 {
+    font-family: 'Mulish';
+    font-style: normal;
+
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    object-fit: contain;
+    object-position: 50% 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.row>* {
+    padding: 0;
+}
+
+.btn {
+    padding: 0px 36px;
+    text-align: center;
+    line-height: 44px;
+    font-family: "Mulish Bold";
+    border-radius: 40px;
+
+}
+
+.btn:hover {
+    background-color: #adda7a;
+}
+
+.btn{
+    color: #fff !important;
+    font-size: 18px !important;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}

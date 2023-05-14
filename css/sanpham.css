@@ -1,0 +1,130 @@
+.product_app{
+    background-color: var(--background-1);
+    padding: 60px 0;
+    
+}
+.section_line {
+    width: 100px;
+}
+
+.content_product {
+    background-color: var(--background-2);
+    min-width: 100%;
+
+
+}
+
+.content_product_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+
+}
+
+.img_line {
+    min-width: 100%;
+    margin-bottom: -1px;
+}
+
+.content_product_heding {
+    color: var(--text);
+    font-size: 38px;
+    text-align: center;
+    margin: 0px;
+    text-transform: uppercase;
+    font-family: "Mulish Bold";
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.content_product_list {
+    justify-content: center;
+    margin:-10px ;
+}
+
+.content_product_item {
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 16px rgb(128 96 16 / 24%);
+    transition: transform .2s;
+    overflow: hidden;
+    cursor: pointer;
+    width: calc(100%/3 - 20px);
+    
+    text-align: center;
+   
+    
+    
+}
+.content_product_item:hover{
+    transform: translateY(-10px);
+} 
+
+
+.content_product_item_img{
+    height: calc(100% / 1.5);
+    margin-bottom: 12px;
+    overflow: hidden;
+
+}
+
+.content_product_item_img img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+
+.product-btn{
+    color: #fff;
+}
+
+
+
+
+
+.content_product_describe {
+    text-align: center;
+}
+
+.content_product_name {
+    margin: 0px 0px 5px 0px;
+    font-size: 20px;
+    color: var(--text);
+    font-family: 'Mulish SemiBold';
+}
+
+.content_product_price {
+    font-size: 22px;
+    color: var(--xanh-la2);
+    font-family: 'Mulish SemiBold';
+}
+
+.product-btn {
+    margin-top: 20px;
+    background-color: var(--xanh-la);
+
+}
+
+.content_news {
+    background-color: var(--background-1);
+    padding-bottom: 20px;
+
+
+}
+
+#app_content .content_news {
+    text-align: center;
+
+
+
+
+
+}
+.content_product_item_link{
+    display: block;
+}

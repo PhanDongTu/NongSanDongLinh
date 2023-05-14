@@ -1,0 +1,116 @@
+.cauchuyen_app{
+    padding-top:  40px; 
+}
+
+.cauchuyen_heading{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Mulish SemiBold";
+    color: var(--xanh-la2);
+    text-align: center;
+    margin-bottom: 12px;
+
+}
+.cauchuyen_content{
+    line-height: 1.5;
+    font-size: 16.5px;
+    font-family: "Mulish";
+    color: var(--text);
+}
+.cauchuyen_img{
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.cauchuyen_img img{
+    object-fit: fill;
+
+    
+    border-radius: 15px;
+    box-shadow: 0px 0px 16px rgb(128 96 16 / 24%);
+
+
+    
+}
+.cauchuyen_img img:first-child{
+    margin-right: 6px;
+}
+
+
+.cauchuyen_contact_item{
+    display: flex;
+    align-items: center;
+}
+.cauchuyen_contact_item h2{
+    font-size :16px ;
+    line-height: 1.5;
+    font-family:"Mulish SemiBold";
+
+}
+.cauchuyen_contact_item a{
+    color: var(--text);
+    font-size :16px ;
+    margin-left: 10px;
+    font-family:"Mulish";
+}
+.cauchuyen_contact_item .facebook,.cauchuyen_contact_item .zalo{
+    color: rgb(72, 72, 213);
+}
+
+
+
+
+
+
+.nhavuon_app{
+    padding-top: 30px;
+    background-color: var(--background-1);
+}
+
+
+.nhavuon_img img{
+    border-radius: 12px;
+    box-shadow: 0px 0px 16px rgb(128 96 16 / 30%);
+
+}
+ .nhavuon_img img:first-child{
+    margin-bottom: 20px;
+    
+ } 
+ .nhavuon_img{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+ }
+ .cauchuyen_heading_nhavuon{
+    color: var(--xanh-la2);
+    text-align: left;
+
+
+
+
+
+ }
+ .muahangodau_app{
+    padding: 30px 0 30px 0;
+
+
+ }
+ .muahangodau_item{
+    width: calc(100%/5 - 20px);
+    margin: 10px;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 10px 14px;
+    box-shadow: 0px 0px 16px rgb(128 96 16 / 24%);
+    transition: transform .2s;
+ }
+ .muahangodau_item:hover{
+    transform: scale(1.05);
+
+ }
+ .muahangodau_list{
+    margin: -10px;
+ }
+

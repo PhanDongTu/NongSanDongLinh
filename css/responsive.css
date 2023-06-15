@@ -102,7 +102,53 @@
     }
 }
 
-@media screen and (max-width: 460px) {}
+@media screen and (max-width: 460px) {
+    .container{
+        padding-right: 20px;
+    padding-left: 20px;
+    }
+    
+
+#app_content .story_content_heding {
+    font-size: 30px;
+    font-family: "Mulish Bold";
+    color: var(--text);
+    padding: 0px 0px 20px 0px;
+    line-height: 38px;
+}
+#app_content .story_content_img_link img{
+    height: 300px;
+
+}
+#app_content .story_content_description{
+    -webkit-line-clamp: inherit;
+}
+#app_content .story_content_la_trai{
+    height: 100px;
+}
+.content_product_item{
+    width: calc(100%/1 - 12px);
+}
+.lato_icon{
+    height: 100px;
+}
+.content_logo .logo_item img{
+    height: 61px;
+}
+.content_logo .logo_item{
+    margin: 12px 5px;
+}
+#app_slide{
+    padding-bottom: 27px;
+}
+.introduce_app_content{
+    flex-wrap: wrap !important;
+}
+
+
+}
+
+
 
 @media screen and (max-width: 375px) {
     .hamburger {
@@ -113,7 +159,7 @@
     .navbar-logo img {
         width: 65%;
     }
-
+   
 
 
 }

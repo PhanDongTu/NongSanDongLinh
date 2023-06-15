@@ -128,3 +128,12 @@
 .content_product_item_link{
     display: block;
 }
+
+.app_cacsanpamlienquan{
+    color: var(--text);
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: "Mulish Bold";
+    text-align: center;
+}

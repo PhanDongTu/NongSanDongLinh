@@ -38,7 +38,7 @@ $(document).ready(function () {
     setTimeout(settop, 100)
     function settop() {
         var A = $(".navbar-logo").height();
-        console.log(A);
+        
 
         $("#app_body").css("margin-top", A + "px");
 

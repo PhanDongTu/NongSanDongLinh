@@ -12,11 +12,13 @@
     <link rel="stylesheet" href="icons/index.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/sanpham.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/chatbox.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="tool/swiper/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="tool/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="tool/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/chitietsanpham.css">
     
     <link rel="stylesheet" href="tool/WOW-20848c410fe32d161c2330e1d261b59512094f81/css/libs/animate.css">
     
@@ -56,20 +58,7 @@
 
 
                         </div>
-                        <div class="swiper-slide conten_slide">
-                            <a class="background-image">
-                                <img src="images/slide_2.png" alt="">
-
-                            </a>
-                            <div class="swiper-button-prev btn-background"><span class="material-icons-outlined">
-
-                                </span>
-
-                            </div>
-                            <div class="swiper-button-next btn-background"><span class="material-icons-outlined"></span>
-                            </div>
-
-                        </div>
+             
                         <div class="swiper-slide conten_slide">
                             <a class="background-image">
                                 <img src="images/slide_2.png" alt="">
@@ -185,15 +174,15 @@
                             <li class="col-lg-4 content_product_item">
                             
                                 <div class="content_product_item_img">
-                                      <img src="images/hang1.png" alt="">
+                                      <img src="images/hang2.png" alt="">
                                 </div>
                                 <div class="content_product_describe">
-                                    <h2 class="content_product_name">Cam sành Vĩnh Nguyên</h2>
-                                    <h2 class="content_product_price">99.000vnđ</h2>
+                                    <h2 class="content_product_name">Thanh Trà Vĩnh Nguyên</h2>
+                                    <h2 class="content_product_price">150.000vnđ</h2>
 
                                 </div>
 
-                                <a class="product-btn btn">
+                                <a class="product-btn btn" href="#" data-id="5">
                                    Đặt Mua
                                 </a>
                                 
@@ -205,17 +194,17 @@
                         <li class="col-lg-4 content_product_item">
                   
                                 <div class="content_product_item_img">
-                                      <img src="images/quyt.jpg" alt="">
+                                      <img src="images/hang1.png" alt="">
                                 </div>
                                 <div class="content_product_describe">
-                                    <h2 class="content_product_name">Cam sành Vĩnh Nguyên</h2>
-                                    <h2 class="content_product_price">99.000vnđ</h2>
+                                    <h2 class="content_product_name">Da Xanh Vĩnh Nguyên</h2>
+                                    <h2 class="content_product_price">120.000vnđ</h2>
 
                                 </div>
 
-                                <button class="product-btn btn">
+                                <a class="product-btn btn" href="#"  data-id="2">
                                    Đặt Mua
-                                </button>
+                                </a>
                                 
 
 
@@ -365,7 +354,50 @@
 
             </div>
             <footer id="app_footer"></footer>
+
+            <div class="modal">
+                <div class="modal-container js-modal-container">
+                    <div class="modal-close js-modal-close">X</i></div>
+                    <header class="modal-header">
+                        <i class="ti-briefcase" ></i>
+                            Thông tin người đặt hàng
+                    </header>
+                    <div class="modal-body">
+                        <from class="from-input">
+                            <label for="quatiti" class="modal-label">
+                                <i class="ti-shopping-cart"></i>
+                                Tên
+                            </label>
+                            <input id="quatiti" type="text" class="modal-input" placeholder="Tên">
+                            <label for="quatiti2" class="modal-label">
+                                <i class="ti-user"></i>
+                                Số điện thoại
+                            </label>
         
+                            <input id="quatiti2" type="email" class="modal-input dilay-pay" placeholder="Sdt">
+        
+                            <label for="quatiti2" class="modal-label">
+                                <i class="ti-user"></i>
+                                Địa Chỉ
+                            </label>
+                            
+                            <input id="quatiti2" type="text" class="modal-input dilay-pay" placeholder="Địa chỉ">
+        
+                            <button id="buy-tyckets">
+                                Đặt Mua
+                                <i class="ti-check"></i>
+                            </button>
+                        </from>
+                    </div>
+                     <footer class="modal-footer">
+                         <p class="sub-footer">Need<a href=""> help?</a> </p>
+                         
+                     </footer> 
+        
+                </div>
+        
+            </div>
+          
 
 
 
@@ -377,11 +409,12 @@
 
         </section>
        
-        <div id="chatbox" class="contact-bubbles wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+        
+
+
+    </div>
+    <div id="chatbox" class="contact-bubbles wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
             
-          </div>
-
-
     </div>
 
     
@@ -390,6 +423,7 @@
     <script type="" src="tool/swiper/js/swiper-bundle.min.js"></script>
     <script type="" src="bootrap/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
     <script type="" src="js/saibar.js"></script>
+    <script type="module" src="js/sanpham.js"></script>
     <script type="" src="tool/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script type="" src="tool/WOW-20848c410fe32d161c2330e1d261b59512094f81/dist/wow.js"></script>
     
@@ -456,6 +490,9 @@ wow.init();
                 nav: true,
                 loop: true,
                 responsive: {
+                    400: {
+                        items: 1
+                    },
                     600: {
                         items: 2
                     },
@@ -469,7 +506,7 @@ wow.init();
 
             $(".logo_list").owlCarousel({
 
-                autoplay: true,
+                autoplay: false,
                 items: 10,
                 itemsDesktop: [1199, 3],
                 itemsDesktopSmall: [979, 3],
@@ -478,6 +515,9 @@ wow.init();
                 loop: true,
                 autoplayTimeout: 7000,
                 responsive: {
+                    400: {
+                        items: 3
+                    },
                     600: {
                         items: 5
                     },

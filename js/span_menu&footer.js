@@ -12,12 +12,12 @@ $(document).ready(function () {
                          <a href="#">MENU</a>
                      </div>
                  </div>
-                 <li><a class="sidebar-brand-link" href="#home">Trang Chủ</a></li>
-                 <li><a class="sidebar-brand-link" href="#about">Giới Thiệu</a></li>
-                 <li><a class="sidebar-brand-link" href="#events">Sản Phẩm</a></li>
-                 <li><a class="sidebar-brand-link" href="#team">Nhà Vườn</a></li>
-                 <li><a class="sidebar-brand-link" href="#services">Mua hàng ở đâu</a></li>
-                 <li><a class="sidebar-brand-link" href="#contact">Tin tức</a></li>
+                 <li><a class="sidebar-brand-link" href="./home.html">Trang Chủ</a></li>
+                 <li><a class="sidebar-brand-link" href="./gioithieu.html">Giới Thiệu</a></li>
+                 <li><a class="sidebar-brand-link" href="./sanpham.html">Sản Phẩm</a></li>
+                 <li><a class="sidebar-brand-link" href="./nhavuon.html">Nhà Vườn</a></li>
+                 <li><a class="sidebar-brand-link" href="./muahangodau.html">Mua hàng ở đâu</a></li>
+                 
 
              </ul>
          </nav>
@@ -73,6 +73,49 @@ $(document).ready(function () {
 
                              <div class="cart-quantity">3</div>
                          </a>
+                         <div class="header__catr-list header__catr-list--no-cart">
+                         <!--<img src="./images/hang1.png" alt="" class="header__catr-no-cart-img"> -->
+                         <h4 class="header__catr-heding">Sản phẩm đả thêm</h4>
+                         <ul class="header__catr-list-tiem">
+                             
+                             <li class="header__cart-tiem">
+                                 <img src="./images/hang1.png" alt="" class="header__cart-img">
+                                 <div class="header__catr-tiem-info">
+                                     <div class="header__catr-tiem-header">
+                                         <h5 class="header__catr-tiem-name">Da Xanh Vĩnh Nguyên</h5>
+                                         <div class="header__catr-tiem-pcire-wrap">
+                                             <span class="header__catr-tiem-price">120.000đ</span>
+                                             <span class="header__catr-tiem-math">x</span>
+                                            <span class="header__catr-tiem-qnt">2</span>
+                                         </div>
+                                     </div>
+                                     <div class="header__catr-list-tiem-body">
+                                         <span class="header__catr-tiem-description">Phân loại: Bưởi Sạch</span>
+                                          <span class="header__catr-tiem-remove">Xóa</span>
+                                     </div>
+                                 </div>
+                             </li>
+                             <li class="header__cart-tiem">
+                                 <img src="./images/hang2.png" alt="" class="header__cart-img">
+                                 <div class="header__catr-tiem-info">
+                                     <div class="header__catr-tiem-header">
+                                         <h5 class="header__catr-tiem-name">Thanh Trà Vĩnh Nguyên</h5>
+                                         <div class="header__catr-tiem-pcire-wrap">
+                                             <span class="header__catr-tiem-price">150.000đ</span>
+                                             <span class="header__catr-tiem-math">x</span>
+                                            <span class="header__catr-tiem-qnt">2</span>
+                                         </div>
+                                     </div>
+                                     <div class="header__catr-list-tiem-body">
+                                         <span class="header__catr-tiem-description">Phân loại: Bưởi Sạch</span>
+                                          <span class="header__catr-tiem-remove">Xóa</span>
+                                     </div>
+                                 </div>
+                             </li>
+                             
+                         </ul>
+                         <button class="header__catr-view-cart btn btn--prymery">Xem giỏ hàng</button>
+                     </div>
 
                      </div>
 
@@ -265,7 +308,7 @@ $(document).ready(function () {
             call
             </span>
     </a>
-    <a href="mailto:example@gmail.com" class="email-bubble zoom-in-out-box">
+    <a href="https://www.facebook.com/profile.php?id=100091275108814" class="email-bubble zoom-in-out-box">
         <img src="./images/facebook-3935.png" alt="" style=" width: 100%; height: 100%; float: left;">
     </a>
     <a href="tel:0123456789" class="zalo-bubble zoom-in-out-box">
